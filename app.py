@@ -53,8 +53,6 @@ def Alumnos1():
 	return render_template('Alumnos1.html',form=create_form)
 
 
-
-
 if __name__ == '__main__':
 	csfr.init_app(app)
 	db.init_app(app)
